@@ -12,7 +12,8 @@ html,body{
     height: 100%;
 }
 #main{
-    background-color: #222;
+   
+   background-color: #22221F;
     overflow-x: hidden;
 }
 
@@ -147,7 +148,7 @@ html,body{
     letter-spacing: -.06em;
     line-height: 380px;
     width: 95%;
-    margin-left: 2.5%;
+    margin-left: 2.4%;
     padding-left: 60px;
 }
 #page2{
@@ -155,17 +156,89 @@ html,body{
     width:100%;
     background-color: #C6BFB5;
     display: flex;
+    justify-content: center;
+   
 }
 #page2-left{
-    width: 35%;
+    width: 32%;
     height:100%;
+    border-right: rgba(29,29,27,.5) solid 1px ;
+    margin-left:28px;
+}
+#page2-left img{
+    object-fit:cover;
+    height: 45%;
+    width: 90%;
+    border: 1px #1C1C1A solid;
+    margin-top: 10px;
+}
+#page2-left h2{
+    font-size: 107px;
+    font-family: Canopee;
+    letter-spacing: -5px;
+    font-weight: 100;
+    line-height:112px;
+    color: #1C1C1A;
+    padding-right: 100px;
+  
     
 }
+#page2-left h2 span{
+    font-size: 180px;
+    font-weight: 250;
+    
+}
+#page2-left h3{
+    font-family: domain;
+    font-size: 34px;
+    margin-top: 28px;
+    font-weight: 60;
+    line-height: 36px;
+    margin-right: 34px;
+  
+}
+
+#page2-left h3::first-letter{
+    float: left;
+    font-size: 90px;
+    font-weight: 230;
+    margin-top: 10px;
+   padding: 27px 8px;
+   margin-right: 10px;
+    background-color: #1C1C19;
+    color: #C8C0B6;
+   
+}
+
 #page2-right{
     width: 65%;
     height:100%;
    
+    margin-left: 30px;
+    margin-right:2.4% ;
+   
 }
+#page2-right img{
+    height:55%;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 18px;
+    color: #1C1C19;
+
+}
+#page2-right h1{
+    font-family: Canopee,San serif;
+    font-size: 8.0vw;
+    font-weight: 100;
+    letter-spacing: -.04em;
+    line-height: 90px;
+    margin-top: 19px;
+    margin-left: 10px;
+    color: #1C1C19;
+}
+
+
+
 
 
 
